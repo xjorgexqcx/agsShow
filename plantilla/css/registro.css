@@ -1,0 +1,12 @@
+.tituloRegistro{text-align: center;font-family: "Century";  color: white;font-size: 30px;padding-top: 13px;}
+.espacio{border-radius: 30px;max-width:1188px;text-align: center;background: url('../imagen/registro/fondoEspacio.jpg');background-size:100% 100%;width: 69%;margin: 0 auto; margin-top: -16px;}
+.espacio input[type="text"], .espacio select , .espacio input[type="email"] {color:#5B5B5F;font-size:14pt;font-family: "ERASM";margin-bottom: 15px;width: 55%;height: 30px;display: inherit;}
+.espacio input[type="checkbox"]{position: absolute;margin-left: 100px;margin-top: 10px;}
+.espacio form{text-align: left;padding-left: 18px;}
+.espacio span{color:white;font-family: "ERASM";font-size: 17pt;}
+.checkedInput{margin-top: -26.5px !important;margin-left: 18%;width: 37% !important;}
+.espacio input[type="submit"]{cursor:pointer;text-align: center;margin-left: 35%;border-radius: 25px;background: #009BDB;border-color: #009BDB;color: white;font-family: "MyriadPro";width: 140px;height: 40px;font-size: 22px;}
+.rptaRegistro{color: rgb(19, 245, 19) !important;text-align: center;font-weight: bold;font-family: "MyriadPro" !important;}
+.rptaError{color: red !important;text-align: center;font-weight: bold;font-family: "MyriadPro" !important;}
+.espacio img{position: absolute;width: 259px;margin-left: 7%;margin-top: 192px;}
+.derechos{text-align: center;color: #2896E8;width: 66%;font-family:calibri;font-size: 12px;margin: 0 auto;}

@@ -1,0 +1,42 @@
+.formularioContacto{
+	margin-left: 18%;
+}
+.tituloContacto{
+  color: #4A72B2;
+  font-family: Arial;
+  margin-left: 18%;
+}
+
+.submenuContacto{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+	background-size: 100% 37px;
+}
+.input, select{
+	width: 35%;
+	height: 23px;
+	display: block;
+	background: white;
+	border-width: 1px;
+	padding-left: 5px;
+	font-family: Arial;
+	margin-bottom: 10px;
+	border-color: #76AADB;
+	box-shadow: 0px 0px 4px #76AADB;
+}
+.textarea{
+	display: block;
+	width: 580px;
+	font-family: Arial;
+	border-color: #76AADB;
+	box-shadow: 0px 0px 4px #76AADB;
+	margin-bottom: 10px;
+}
+.submit{
+	cursor: pointer;
+	display: block;
+	margin-left: 480px;
+	font-family: Arial;
+	background: transparent;
+	border-color: #76AADB;
+	box-shadow: 0px 0px 4px #76AADB;
+}

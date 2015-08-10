@@ -1,0 +1,229 @@
+/*Fuentes*/
+@font-face {
+   font-family: "CenturyBold";
+   font-style: bold;
+   font-weight: bold;
+   src: url(../fuente/GOTHICB.ttf);
+}
+@font-face {
+   font-family: "Century";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fuente/GOTHIC.ttf);
+}
+@font-face {
+   font-family: "SPINC";
+   font-style: bold;
+   font-weight: bold;
+   src: url(../fuente/SPINC.ttf);
+   src: url(../fuente/SPINC.otf);
+}
+@font-face {
+   font-family: "MyriadPro";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fuente/MyriadPro-Regular.otf);
+}
+@font-face {
+   font-family: "Namco";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../fuente/namco.ttf);
+}
+a:hover,input[type="submit"]:hover,input[type="button"]:hover,button:hover,.menu div:hover{
+	cursor: url('../puntero/hover.cur'),pointer !important;
+}
+body{
+	margin:0px;
+	height: 100%;
+	min-height: 100%;
+	cursor: url('../puntero/normal.cur'),pointer;
+}
+#contenedor{
+	background: url('../imagen/fondo/a.jpg') no-repeat;
+	background-position-y: 164px;
+	background-size: 100% 75%;
+	background-position-x: 0px;
+	background-attachment: fixed;
+	max-width: 1600px;
+	cursor: url('../puntero/normal.cur'),pointer;
+}
+header{
+	background: url('../imagen/cabecera.jpg') no-repeat;
+	background-size: 100% 164px;
+	min-height: 164px;
+	max-height: 164px;
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+	max-width: 1600px;
+}
+header img{
+	margin-left: 42.5px;
+	margin-top: 28px;
+}
+header p{
+	color: white;
+  	font-size: 19.47px;
+  	margin-left: 178px;
+  	margin-top: -116px;
+  	font-family: "CenturyBold";
+}
+header h1{
+	color: white;
+	margin-top: -13px;
+  	font-size: 21pt;
+  	margin-left: 169px;
+	font-family: "SPINC";
+	text-shadow: 2px 3px 5px black;
+}
+.l1{
+	margin-top: 0px;
+	margin-left: 73%;
+	position: absolute;
+}
+.l2{
+	font-family: "MyriadPro";
+    font-style: normal;
+    margin-top: 6px;
+  	margin-left: 76.3%;
+  	position: absolute;
+}
+.l2 a{
+	text-decoration: none;
+  	color: white;
+  	font-size: 17.04px;
+  	letter-spacing: 1px;
+}
+.redes{
+	margin-top: -145px;
+  	margin-left: 85.7%;
+}
+.redes img{
+	margin-left: 13px;
+}
+
+.fondoInicioSesion{
+	width: 108px;
+  	margin-left: 75%;
+	height: 38px;
+  	margin-top: -26px;
+  	overflow-y: hidden;
+  	border-radius: 20px;
+	background-color: #EDEEF0;
+}
+.fondoInicioSesion img{
+	margin-top: 9px;
+  	margin-left: 25px;
+}
+.fondoInicioSesion label{
+	vertical-align: super;
+	margin-left: 10px;
+}
+.fondoInicioSesion label a{
+	font-family: "MyriadPro";
+	font-weight: normal;
+	text-decoration: none;
+	color: #3C5999;
+}
+.menu{
+	font-family: "Namco";
+  	width: 80%;
+  	margin-left: 16%;
+  	display: inline-flex;
+  	margin-top: 101px; /* for mozilla */
+  	-webkit-margin-before:102px;
+  	font-size: 10.12px;
+  	color: white;
+}
+.menu div{
+	cursor: pointer;
+}
+
+.submenuInicio{
+    display: inline-block;
+  	width: 118.591px;
+  	font-weight: normal;
+  	height: 36.662px;
+  	text-align: center;
+  	padding-top: 14px;
+  	letter-spacing: 1px;
+}
+.submenuInicio:hover{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+	background-size: 100% 37px;
+}
+
+.submenuSeguidor{
+	width: 185.349px;
+	font-weight: normal;
+  	height: 36.662px;
+  	letter-spacing: 1px;
+  	text-align: center;
+  	padding-top: 14px;
+}
+.submenuSeguidor:hover{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+  	background-size: 100% 37px;
+}
+
+.submenuExpositor{
+	text-align: center;
+	padding-top: 14px;
+	width: 180.537px;
+	height: 36.662px;
+}
+.submenuExpositor:hover{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+	background-size: 100% 37px;
+}
+
+.submenuBusiness{
+	text-align: center;
+	padding-top: 14px;
+	width: 171.203px;
+	height: 36.662px;
+}
+.submenuBusiness:hover{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+	background-size: 100% 37px;
+}
+.submenuPrensa{
+	text-align: center;
+	padding-top: 14px;
+	width: 144.023px;
+	height: 36.662px;
+}
+.submenuPrensa:hover{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+	background-size: 100% 37px;
+}
+.submenuContacto{
+	text-align: center;
+	padding-top: 14px;
+	width: 184px;
+	height: 36.662px;
+}
+.submenuContacto:hover{
+	background: url('../imagen/header/menu/fondo.png') no-repeat;
+	background-size: 100% 37px;
+}
+.sub1{
+	margin-top: 12.4px;
+	display: none;
+}
+.sub1 div{
+	background-color: #0098DC;
+	color: #D8D9DD;
+	font-family: "Century";
+	font-weight: normal;
+	font-size: 12pt;
+	height: 20pt;
+	padding-top: 2px;
+	text-align: left;
+  	padding-left: 10px;
+}
+.sub1 div:hover{
+	background-color: #00448B;
+	color: #FFFFFF;
+}

@@ -1,0 +1,16 @@
+.submenuSeguidor {
+    background: url('../imagen/header/menu/fondo.png') no-repeat;
+    background-size: 100% 37px;
+}
+.submenuSeguidor:hover{
+    background: url('../imagen/header/menu/fondo.png') no-repeat;
+    background-size: 100% 37px;
+}
+.titulo{background: url('../imagen/body/expositores/titulo.jpg') no-repeat;background-size: 100% auto;width: 70%;margin: 0 auto;font-family: "MyriadPro";font-size: 34px;text-align: center;color: white;padding-top: 2px;}
+
+@media(min-width: 1100px){
+    .titulo{font-size: 40px;}
+}
+@media(min-width: 1300px){
+	.titulo{width: 75.5%;font-size: 50px;}
+}

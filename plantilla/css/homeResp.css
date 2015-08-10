@@ -1,0 +1,63 @@
+@media(min-width: 1120px){
+	.l2 {
+  		margin-left: 75.84%;
+	}
+	.fondoInicioSesion {
+  		margin-left: 74.5%;
+	}
+}
+@media(min-width: 1240px){
+	.l2{
+		margin-left: 75.4%;
+	}
+}
+@media(min-width: 1300px){
+	/*body{*/
+	#contenedor{
+		background: url('../imagen/fondo/fondo.jpg') no-repeat;
+		background-position: 0 164px;
+		background-size: 100% auto;
+		background-position-x: 50%;
+		background-attachment: fixed;
+		margin:0px;
+	}
+	.zonas {
+  		height: 150px;
+	}
+	.menu{
+		width: 74%;
+  		margin-left: 12%;
+	}
+}
+@media(min-width: 1366px){
+	.l2 {
+  		margin-left: 75.2%;
+	}
+}
+@media(min-width: 1400px){
+	.menu {
+  		width: 67%;
+	}
+}
+@media(min-width: 1480px){
+	.l2 {
+	  	margin-left: 75%;
+	}
+	.fondoInicioSesion {
+  		margin-left: 74.2%;
+	}
+}
+
+@media(min-width: 1602px){
+	#contenedor{
+		background-size: 1600px auto !important;
+		width: 1600px;
+		margin: 0 auto;
+	}
+	.csslider1 {
+      width: 75.6% !important;
+      margin-top: 165px !important;
+      margin-left: 11.99% !important;
+      max-width: 1209px !important;
+	}
+}

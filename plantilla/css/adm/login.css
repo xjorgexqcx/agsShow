@@ -1,0 +1,18 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-size: 100%;
+}
+body{
+	background-color: brown;
+}
+.formulario{
+    text-align: center;
+    margin-top: 150px;
+}
+.mdl-textfield__input,.mdl-textfield__label{
+	color: white !important;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label{
+	color: white !important;
+}

@@ -1,0 +1,183 @@
+.patrocinio{
+  background: url('../imagen/body/auspiciadores/auspiciadores.jpg') no-repeat;
+  background-size: 100% auto;
+  margin-left: 18%;
+  margin-top: 10px; 
+  width: 64.5%;
+  min-height: 200px;
+}
+#auspi{
+  margin-left: 3.2%;
+}
+.patrocinio img{
+  margin-top: 64px;
+  margin-left: 2.5%;
+  width: 190px;
+  border-radius: 18px;
+}
+.patro{
+  background: url('../imagen/body/patrocinadores/expositores.jpg') no-repeat;
+  background-size: 100% auto;
+  margin-left: 18%;
+  margin-top: 20px;
+  width: 64.5%;
+  min-height: 200px;
+}
+.patro img{
+  margin-top: 35px;
+  margin-left: 9%;
+  width: 149px;
+  height: auto;
+  min-height: 38px;
+}
+.part{
+  background: url('../imagen/body/partners/partners.jpg') no-repeat;
+  background-size: 100% auto;
+  margin-left: 18%;
+  margin-top: 20px;
+  width: 64.5%;
+  min-height: 200px; 
+}
+.part img{
+  /*margin-top:-8px;*/
+  margin-top: -3%;
+  margin-left: 0%;
+  margin-right: 67px;
+  width: 141px;
+  border-radius: 18px;
+}
+.noticias{
+  background :#008FCE;
+  /*height:250px;*/
+  padding-bottom: 26px;
+  width: 70.2%;
+  margin-top: -13px;
+  margin-left: 15%;
+  padding-top: 30px;
+}
+.noticias div{
+  width: 21.5%;
+  background: #EDEEF0;
+  display: inline-table;
+  margin-left:2.5%;
+  margin-bottom: 12px;
+}
+.miTituloNoticia{
+  font-family: "CenturyBold";
+  color: #2AA1D0;
+  font-size: 32px;
+  text-align: center;
+  /*margin-left: 21%;*/
+}
+.noticias img{
+  width: 100%;
+  /*height: 80%;*/
+  cursor: pointer; 
+  display: inline-block;
+}
+.separador{
+  background: #727176;
+  height: 10px;
+  width: 70.3%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 15%;
+  max-width: 1128px;
+}
+.noticiasJuegos{
+  font-family: "CenturyBold";
+  color: #2AA1D0;
+  width: 70.2%;
+  margin-left: 15%;
+  margin-top: 1px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  background: #F7F7F8;
+  max-width: 1128px;
+}
+.noticiasJuegos h3{
+  text-align: center;
+  font-size: 32px;
+}
+#fb{
+  /*margin-left: 25%;*/
+  width: 330px;
+}
+.banner{
+  width: 48%;
+  height: 180px;
+  background: #4A72B2;
+  margin-bottom: 15px;
+  color: white;
+  font-family: "CenturyBold";
+  font-size: 39px;
+  text-align: center;
+  padding-top: 10%;
+}
+.banner img{
+}
+.barraDerecha{
+  margin-top: -114.8%;
+  margin-left: 46%;
+  width: 500px;
+  display: none;
+}
+.barraIzquierda{
+  margin-top: 35px;
+}
+#barraIzquierda{
+  margin-bottom: 14%;
+}
+#barraIzquierda2{
+  margin-bottom: 16%;
+}
+.barraIzquierda:hover{
+  background: white;
+}
+.barraIzquierda img{
+  width: 35%;
+  margin-left: 4%;
+  cursor: pointer;
+}
+#juegoTexto{
+  /*margin-top: -20%;*/
+  margin-top: -32%;
+  margin-left: 42%;
+  font-family: "CenturyBold";
+  font-size: 10pt;
+  color: #868589;
+  width: 40%;
+}
+#fblike{
+  margin-top: 7.5%;
+  margin-left: 41%;
+  display: inline-block;
+}
+.videoGrande{
+  width: 80%;
+  /*height: 200px;*/
+  margin-top: 3%;
+  margin-left: 10%;
+  background: #FFFFFF;
+  border-radius: 25px;
+  box-shadow: 0px 1px 15px rgb(56, 53, 53);
+}
+.videoGrande img{
+  margin-left: 25px;
+}
+#frameVideo{
+  margin-left: 7%;
+  margin-bottom: 20px;
+}
+#frameVideoChico{
+  margin-left: 2%;
+  margin-top: 30px;
+}
+.miTexto{
+  color: #87868A;
+  font-family: "CenturyBold";
+  font-size: 9pt;
+  margin-top: -16px;
+  margin-left: 80%;
+  visibility: hidden;
+}

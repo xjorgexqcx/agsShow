@@ -1,0 +1,22 @@
+.expositores{
+	border-top: 1px solid #B0AFB5;
+    width: 70.5%;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.expoCabeza{
+	width: 30%;
+}
+.ltaExpo img{
+	width: 80%;
+	padding-left: 9.5%;
+	padding-top: 2.5%;
+}
+.ltaExpo{
+	width: 21%;
+    margin-left: 1.5%;
+	margin-top: 10px;
+	background: url('../imagen/body/patrocinadores/fondoExpo.png') no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+}

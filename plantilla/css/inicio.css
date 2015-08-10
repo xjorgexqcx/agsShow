@@ -1,0 +1,61 @@
+.zonas{
+  position: relative;
+  overflow-y: hidden;
+  background-color: #002E82;
+  width: 68.8%;
+  height: 114.631px;
+  margin-left: 15.7%;
+  top: 0;
+  max-width: 1184px;
+}
+.zonas label{
+  color: white;
+  font-size: 22px;
+  margin-left: 40px;
+  font-family: "Century";
+}
+.zonas img{
+    margin-left: 10%;
+}
+#mapa{
+  /*background-color:#F7F7F8;*/
+  background-color: #CCCCCC;
+  position: relative;
+  overflow-y: hidden;
+  height: 0px;
+  width: 68.5%;
+  height: 0px;
+  margin-left: 15.7%;
+  margin-top: 6px;
+  top: 0;
+}
+.verZonas{
+  cursor: pointer;
+  width: 164px;
+  height: 44px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 33%;
+}
+.verZonas p{
+  text-align: center;
+  font-family: "Century";
+  font-size: 17.11px;
+  color: #001D7E;
+  padding-top: 11px;
+}
+.imagenSanMiguel{
+  margin-left: 10% !important;
+  margin-top: 15px;
+  width: 80%;
+  height: 241px;
+}
+.slider{
+  width: 68.5%;
+  margin-left: 15.7%;
+  margin-top: 180px;
+}
+.slider img{
+  width: 100%;
+}

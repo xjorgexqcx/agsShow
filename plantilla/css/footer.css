@@ -1,0 +1,13 @@
+footer{
+	width: 69%;
+	color: white;
+	margin-left: 15.6%;
+	background-color: #002E82;
+}
+footer p{
+	text-align: center;
+	font-family: "Century";
+	font-size: 10pt;
+	padding-top: 0.5%;
+  	padding-bottom: 0.5%;
+}

@@ -1,0 +1,176 @@
+@media(min-width: 1100px){
+	.part img{
+		margin-top: 2%;
+	}
+	.patrocinio,.patro,.part{
+		min-height: 214px;
+	}
+	#auspi{
+		margin-left: 4%;
+	}
+	.patrocinio img{
+		width: 198px;
+		margin-top: 71px;
+  		margin-left: 4%;
+	}
+	#barraIzquierda {
+  		margin-bottom: 15%;
+	}
+	#barraIzquierda2 {
+  		margin-bottom: 17%;
+	}
+}
+@media(min-width: 1130px){
+	.barraIzquierda{
+		margin-top: 42px;
+	}
+	.patrocinio img {
+    	width: 202px;
+	}
+}
+@media(min-width: 1200px){
+	.owl-carousel {
+		width: 91% !important;
+	}
+	.item img{
+		width: 166px !important;
+	}
+	.patrocinio img{
+		margin-top: 74px;
+		margin-left: 2%;	
+		width: 223px;
+	}
+	.patrocinio,.patro,.part{
+		min-height: 232px;
+	}
+	.patro img{
+		margin-top: 5%;
+		width: 177px;
+	}
+	.noticias div {
+  		height: 192px;
+	}
+	#juegoTexto{
+		font-size: 14pt;
+	}
+	.barraIzquierda{
+		margin-bottom: 15px;
+	}
+	#frameVideo {
+		margin-left: 7%;
+		margin-bottom: 20px;
+		height: 385px;
+	}
+	#frameVideoChico {
+  		height: 195px;
+	}
+}
+@media(min-width: 1300px){
+	.owl-carousel {
+		width: 91.1% !important;
+	}
+	.part img{
+		margin-top: 4%;
+	}
+	.item img{
+		width: 209px !important;
+	}
+	.patro img {
+  	width: 220px;
+	}
+	.zonas {
+		margin-left: 12.7%;
+  	height: 150px;
+  	width: 74.5%;
+	}
+	.zonas label {
+  	margin-left: 10%;
+  	margin-top: 7px;
+  	position: absolute;
+  	font-size: 25px;
+	}
+	.verZonas {
+	  width: 190px;
+	  height: 54px;
+	  margin-top: 68px;
+	  margin-left: 40%;
+	}
+	.zonas img {
+  	margin-left: 17%;
+  	margin-top: 6%;
+	}
+	.verZonas p {
+  	font-size: 18.11px;
+  	padding-top: 16px;
+	}
+	.slider{
+		width: 72.5%;
+  		margin-left: 13.7%;
+	}
+	.patrocinio,.patro,.part{
+  		min-height: 285px;
+  		margin-left: 13.3%;
+  		margin-top: 20px;
+  		width: 73.5%;
+	}
+	.patrocinio img{
+		margin-top: 93px;
+  		margin-left: 2%;
+  		width: 272px;
+	}
+	.noticias div {
+  		height: 232px;
+	}
+}
+@media(min-width: 1400px){
+	.item img{
+		width: 224px !important;
+	}
+	.part img{
+		margin-top: 6% !important;
+	}
+	.patro img {
+  		width: 245px;
+	}
+	#auspi{
+		margin-left: 6.5% !important;
+	}
+	.patrocinio img{
+		margin-top: 104px;
+  		width: 295px;
+	}
+	#barraIzquierda{
+		margin-bottom: 17%;
+	}
+	#barraIzquierda2{
+		margin-bottom: 19%;
+	}
+	.patrocinio,.patro,.part{
+  		min-height: 300px;
+  	}
+}
+@media(min-width: 1500px){
+	.part img{
+		margin-top: 7% !important;
+	}
+	.item img{
+		width: 240px !important;
+	}
+	#auspi{
+		margin-left: 5% !important;
+	}
+	.patrocinio,.patro,.part{
+		min-height: 325px;
+	}
+	.patrocinio img{
+  		margin-top: 106px;
+  		width: 320px;
+	}
+}
+
+@media(min-width: 1580px){
+	  .patrocinio,.patro,.part{
+	  	  height: 350px;
+	  	  max-width: 1182px;
+	  }
+}

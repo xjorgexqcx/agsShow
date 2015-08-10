@@ -1,0 +1,89 @@
+@font-face {
+   font-family: "MyriadPro";
+   font-style: normal;
+   font-weight: normal;
+   src: url(../../fuente/MyriadPro-Regular.otf);
+}
+*{
+	margin:0px;
+	padding: 0px;
+	font-size: 100%;	
+}
+body{
+	background: url('../../imagen/adm/index/fondo.jpg') no-repeat;
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+.titulo{
+	width: 100%;
+	margin-top: 60px;
+	text-align: center;
+}
+.titulo a{
+	color: #00E894;
+    font-family: "MyriadPro";
+}
+.titulo a:hover{
+	color: #BBFF00;
+}
+.titulo h1{
+	font-family: "Century Gothic";
+	font-weight: normal;
+	font-size: 33px;
+	color: white;
+}
+.opcionesMenu{
+	margin: 0 auto;
+	margin-top: 90px;
+}
+.imagenMenu{
+	width: 100%;
+	text-align: center;
+}
+.textoMenu{
+	font-family: "Century Gothic";
+	font-weight: normal;
+	font-size: 22.7px;
+	color: white;
+	text-align: center;
+}
+.imagenMenu img{
+	width: 65%;
+	max-width: 100px;
+	cursor: pointer;
+}
+.contenedorMenu{
+	display: inline-block;
+	width: 16%;
+}
+#usuario{
+	margin-left: 18%;
+}
+#tabla{
+	width: 80%;
+	margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+.mdl-data-table th, .mdl-data-table td{
+	text-align: center !important;
+}
+.descarga{
+	width: 100%;
+	margin-top: 50px;
+	text-align: center;
+}
+.mdl-tooltip{
+	background: #57BD23 !important;
+	color: white !important;
+	font-size: 13px !important;
+}
+.atras{
+	margin: 50px;
+}
+.atras img{
+	border-radius: 6px;
+	cursor: pointer;
+}
