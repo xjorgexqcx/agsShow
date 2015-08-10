@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?=base_url()?>plantilla/css/contacto.css">
 
 <h2 id="espacioContacto" class="tituloContacto">CONTACTO</h2>
-
+	<p><?=$rpta?></p>
 	<form class="formularioContacto" action="<?=base_url()?>home/mensaje" method="POST" >
 		<input type="text" placeholder="Nombre" id="nombre" name="nombre" class="input" />
 		<input type="text" placeholder="Email" id="email" name="email" class="input" />
@@ -14,5 +14,5 @@
 		</select>
 		<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="textarea"></textarea>
 
-		<input type="submit" value="Enviar Mensaje" name="mensaje" id="mensaje" class="submit">
-	</form>
+		<input type="submit" value="Enviar Mensaje" name="Enviar" id="enviar" class="submit">
+	</form> 

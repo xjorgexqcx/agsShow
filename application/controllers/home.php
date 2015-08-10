@@ -23,9 +23,10 @@
  		$this->load->view("principal/footer.php");
  	}
  	public function contacto(){
+ 		$data = array('rpta' => 'Tu mensaje ha sido enviado. Estaremos en contacto via email');
  		$this->load->view("principal/header.php");
  		$this->load->view("principal/inicio.php");
- 		$this->load->view("publico/contacto.php");
+ 		$this->load->view("publico/contacto.php",$data);
  		$this->load->view("principal/footer.php");
  	}
 
@@ -132,15 +133,24 @@
  		$this->load->view("principal/footer.php");
  	}
  	public function mensaje(){
+ 		$email = $this->input->post("email");
+ 		$nombre = $this->input->post("nombre");
+ 		$motivo = $this->input->post("motivo");
+ 		$mensaje = $this->input->post("mensaje");
+ 		
  		$this->load->library('email');
-		$this->email->from('tu_direccion@tu_sitio.com', 'Tu nombre');
-		$this->email->to('alguien@ejemplo.com'); 
-		$this->email->cc('otro@otro-ejemplo.com'); 
-		$this->email->bcc('ellos@su-ejemplo.com'); 
-		$this->email->subject('Correo de Prueba');
-		$this->email->message('Probando la clase email');
+		$this->email->from($email, $nombre);
+		$this->email->to('jquijanoceli@gmail.com'); 
+		$this->email->subject($motivo);
+		$this->email->message($mensaje);
 		$this->email->send();
-		$data = array('prod' => $resultado);
+
+		$data = array('rpta' => 'Tu mensaje ha sido enviado. Estaremos en contacto via email');
+
+		$this->load->view("principal/header.php");
+ 		$this->load->view("principal/inicio.php");
+ 		$this->load->view("publico/contacto.php",$data);
+ 		$this->load->view("principal/footer.php");
  	}
  	public function torneos(){
  		$this->load->view("principal/header.php");
