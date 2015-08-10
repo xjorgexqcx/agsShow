@@ -23,7 +23,7 @@
  		$this->load->view("principal/footer.php");
  	}
  	public function contacto(){
- 		$data = array('rpta' => 'Tu mensaje ha sido enviado. Estaremos en contacto via email');
+ 		$data = array('rpta' => '');
  		$this->load->view("principal/header.php");
  		$this->load->view("principal/inicio.php");
  		$this->load->view("publico/contacto.php",$data);

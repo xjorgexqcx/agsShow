@@ -40,3 +40,9 @@
 	border-color: #76AADB;
 	box-shadow: 0px 0px 4px #76AADB;
 }
+.rpta{
+	text-align: center;
+    font-size: 18px;
+    color: green;
+    font-family: "MyriadPro";
+}

@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="<?=base_url()?>plantilla/css/contacto.css">
 
 <h2 id="espacioContacto" class="tituloContacto">CONTACTO</h2>
-	<p><?=$rpta?></p>
+	<p class="rpta"><?=$rpta?></p>
 	<form class="formularioContacto" action="<?=base_url()?>home/mensaje" method="POST" >
 		<input type="text" placeholder="Nombre" id="nombre" name="nombre" class="input" />
 		<input type="text" placeholder="Email" id="email" name="email" class="input" />
