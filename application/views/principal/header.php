@@ -58,7 +58,7 @@
 		<img id="pImagen" class="l1" src="<?=base_url()?>plantilla/imagen/header/inicioSesion.png" alt="Login">
 		<p class="l2"><a href="#" onclick="window.location.href='<?=base_url();?>home/registro#espacio';">Regístrate</a></p>
 		<img src="<?=base_url()?>plantilla/imagen/header/logo.png" alt="Logo">
-		<p>La nueva feria de videojuegos</p>
+		<p>Plaza San Miguel - Lima - Perú</p>
 		<h1>AMAZING GAME SHOW</h1>
 		<div class="redes">
 			<a class="redFacebook" href="https://www.facebook.com/AmazingGameShow" target="_blank"><img src="<?=base_url()?>plantilla/imagen/header/redes/facebook.png" alt="FACEBOOK" title="FACEBOOK"></a>

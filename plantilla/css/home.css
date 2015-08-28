@@ -64,18 +64,20 @@ header img{
 }
 header p{
 	color: white;
-  	font-size: 19.47px;
-  	margin-left: 178px;
-  	margin-top: -116px;
-  	font-family: "CenturyBold";
+  font-size: 20.37px;
+  margin-left: 173px;
+  margin-top: -75px;
+  font-family: "CenturyBold";
+  position: absolute;
 }
 header h1{
-	color: white;
-	margin-top: -13px;
-  	font-size: 21pt;
-  	margin-left: 169px;
-	font-family: "SPINC";
-	text-shadow: 2px 3px 5px black;
+  color: white;
+  margin-top: -104px;
+  font-size: 21pt;
+  margin-left: 169px;
+  margin-bottom: 36px;
+  font-family: "SPINC";
+  text-shadow: 2px 3px 5px black;
 }
 .l1{
 	margin-top: 0px;
