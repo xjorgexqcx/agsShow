@@ -22,6 +22,7 @@
 
 <!-- contador -->
 <div class="clock" style="margin:2em;position:absolute;"></div>
+	<h3 class="fechaPresentacion">23, 24 y 25 de Octubre</h3>
     <script type="text/javascript">
 			var clock;			
 			$(document).ready(function() {
