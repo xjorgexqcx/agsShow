@@ -1,6 +1,7 @@
 $(document).ready(function() {
   var caro = $("#owl-demos");
   var owl = $("#owl-demo");
+  // var owl2 = $("#midem");
  
   owl.owlCarousel({
       items : 3, //10 items above 1000px browser width

@@ -11,7 +11,7 @@
 }
 .patrocinio img{
   margin-top: 64px;
-  margin-left: 9.5%;
+  margin-left: 2.5%;
   width: 190px;
   border-radius: 18px;
 }
@@ -25,7 +25,7 @@
 }
 .patro img{
   margin-top: 35px;
-  margin-left: 9%;
+  margin-left: 8%;
   width: 149px;
   height: auto;
   min-height: 38px;
@@ -39,8 +39,9 @@
   min-height: 200px; 
 }
 .part img{
-  margin-top: -4%;
-  margin-left: 8%;
+  /*margin-top:-8px;*/
+  margin-top: -3%;
+  margin-left: 0%;
   margin-right: 67px;
   width: 141px;
   border-radius: 18px;
@@ -179,4 +180,365 @@
   margin-top: -16px;
   margin-left: 80%;
   visibility: hidden;
+}
+
+/*INDEX RESPONSIVE DESIGN*/
+@media(min-width: 1100px){
+  .part img{
+    margin-top: 2%;
+  }
+  .patrocinio,.patro,.part{
+    min-height: 214px;
+  }
+  #auspi{
+    margin-left: 4%;
+  }
+  .patrocinio img{
+    width: 198px;
+    margin-top: 71px;
+      margin-left: 4%;
+  }
+  #barraIzquierda {
+      margin-bottom: 15%;
+  }
+  #barraIzquierda2 {
+      margin-bottom: 17%;
+  }
+}
+@media(min-width: 1130px){
+  .barraIzquierda{
+    margin-top: 42px;
+  }
+  .patrocinio img {
+      width: 202px;
+  }
+}
+@media(min-width: 1170px){
+  .patro img{
+    width: 170px;
+  }
+}
+@media(min-width: 1200px){
+  .owl-carousel {
+    width: 91% !important;
+  }
+  .item img{
+    width: 166px !important;
+  }
+  .patrocinio img{
+    margin-top: 74px;
+    margin-left: 2%;  
+    width: 223px;
+  }
+  .patrocinio,.patro,.part{
+    min-height: 232px;
+  }
+  .patro img{
+    margin-top: 5%;
+    width: 177px;
+  }
+  .noticias div {
+      height: 192px;
+  }
+  #juegoTexto{
+    font-size: 14pt;
+  }
+  .barraIzquierda{
+    margin-bottom: 15px;
+  }
+  #frameVideo {
+    margin-left: 7%;
+    margin-bottom: 20px;
+    height: 385px;
+  }
+  #frameVideoChico {
+      height: 195px;
+  }
+}
+@media(min-width: 1300px){
+  .owl-carousel {
+    width: 91.1% !important;
+  }
+  .part img{
+    margin-top: 4%;
+  }
+  .item img{
+    width: 209px !important;
+  }
+  .patro img {
+    width: 220px;
+  }
+  .zonas {
+    margin-left: 12.7%;
+    height: 150px;
+    width: 74.5%;
+  }
+  .zonas label {
+    margin-left: 10%;
+    margin-top: 7px;
+    position: absolute;
+    font-size: 25px;
+  }
+  .verZonas {
+    width: 190px;
+    height: 54px;
+    margin-top: 68px;
+    margin-left: 40%;
+  }
+  .zonas img {
+    margin-left: 17%;
+    margin-top: 6%;
+  }
+  .verZonas p {
+    font-size: 18.11px;
+    padding-top: 16px;
+  }
+  .slider{
+    width: 72.5%;
+      margin-left: 13.7%;
+  }
+  .patrocinio,.patro,.part{
+      min-height: 285px;
+      margin-left: 13.3%;
+      margin-top: 20px;
+      width: 73.5%;
+  }
+  .patrocinio img{
+    margin-top: 93px;
+      margin-left: 2%;
+      width: 272px;
+  }
+  .noticias div {
+      height: 232px;
+  }
+}
+@media(min-width: 1400px){
+  .item img{
+    width: 224px !important;
+  }
+  .part img{
+    margin-top: 6% !important;
+  }
+  .patro img {
+      width: 245px;
+  }
+  #auspi{
+    margin-left: 6.5% !important;
+  }
+  .patrocinio img{
+    margin-top: 104px;
+      width: 295px;
+  }
+  #barraIzquierda{
+    margin-bottom: 17%;
+  }
+  #barraIzquierda2{
+    margin-bottom: 19%;
+  }
+  .patrocinio,.patro,.part{
+      min-height: 300px;
+    }
+}
+@media(min-width: 1500px){
+  .part img{
+    margin-top: 7% !important;
+  }
+  .item img{
+    width: 240px !important;
+  }
+  #auspi{
+    margin-left: 5% !important;
+  }
+  .patrocinio,.patro,.part{
+    min-height: 325px;
+  }
+  .patrocinio img{
+      margin-top: 106px;
+      width: 320px;
+  }
+}
+@media(min-width: 1580px){
+    .patrocinio,.patro,.part{
+        height: 350px;
+        max-width: 1182px;
+    }
+}
+
+
+/*INICIO.CSS*/
+.zonas{
+  position: relative;
+  overflow-y: hidden;
+  background-color: #002E82;
+  width: 68.8%;
+  height: 114.631px;
+  margin-left: 15.7%;
+  top: 0;
+  max-width: 1184px;
+}
+.zonas label{
+  color: white;
+  font-size: 22px;
+  margin-left: 40px;
+  font-family: "Century";
+}
+.zonas img{
+    margin-left: 10%;
+}
+#mapa{
+  /*background-color:#F7F7F8;*/
+  background-color: #CCCCCC;
+  position: relative;
+  overflow-y: hidden;
+  height: 0px;
+  width: 68.5%;
+  height: 0px;
+  margin-left: 15.7%;
+  margin-top: 6px;
+  top: 0;
+}
+.verZonas{
+  cursor: pointer;
+  width: 164px;
+  height: 44px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1%;
+  margin-left: 33%;
+}
+.verZonas p{
+  text-align: center;
+  font-family: "Century";
+  font-size: 17.11px;
+  color: #001D7E;
+  padding-top: 11px;
+}
+.imagenSanMiguel{
+  margin-left: 10% !important;
+  margin-top: 15px;
+  width: 80%;
+  height: 241px;
+}
+.slider{
+  width: 68.5%;
+  margin-left: 15.7%;
+  margin-top: 180px;
+}
+.slider img{
+  width: 100%;
+}
+
+/*OWL.CARROUSEL.CSS*/
+/* 
+ *  Core Owl Carousel CSS File
+ *  v1.3.3
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+.owl-carousel{
+  display: none;
+  position: relative;
+  width: 91%;
+  margin-left: 4.6%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+  
+.owl-carousel .owl-item{
+  float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+  cursor: pointer;
+}
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/*OWLESTILO.CSS*/
+#owl-demo .item{
+  padding: 30px 0px;
+  margin: 10px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+.customNavigation{
+  text-align: center;
+}
+//use styles below to disable ugly selection
+.customNavigation a{
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.item img{
+  width: 150px;
+}
+#items{
+  margin-top: -30px;
+  margin-left: 4%;
+}
+@media(min-width: 1500px){
+  .owl-carousel {
+    margin-left: 54px !important;
+  }
+  #items{
+    margin-left: 5.5%;
+    margin-top: -60px;
+  }
+  #items img{
+    width: 285px !important;
+  }
 }

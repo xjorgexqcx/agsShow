@@ -1,11 +1,6 @@
 <!-- estilos de la pagina -->
 <link rel="stylesheet" href="<?=base_url()?>plantilla/css/index.css" />
-<!-- responsive de la pagina -->
-<link rel="stylesheet" href="<?=base_url()?>plantilla/css/indexResp.css" />
-<link rel="stylesheet" href="<?=base_url()?>plantilla/css/inicio.css" />
 <link rel="stylesheet" href="<?=base_url()?>plantilla/css/menuInicio.css" />
-<link rel="stylesheet" href="<?=base_url()?>plantilla/css/owl.carousel.css" />
-<link rel="stylesheet" href="<?=base_url()?>plantilla/css/owlEstilo.css" />
 <script src="<?=base_url();?>plantilla/js/ejecutor.js"></script>
 <script src="<?=base_url();?>plantilla/js/owl.carousel.js"></script>
 
@@ -34,6 +29,7 @@
 <div class="patro">
 	<img src="<?=base_url()?>plantilla/imagen/body/patrocinadores/2.png" alt="EXPOSITORES" title="ONSEAT">
 	<img src="<?=base_url()?>plantilla/imagen/body/patrocinadores/1.png" alt="EXPOSITORES" title="THE WALKING DEAD PERU">
+	<img src="<?=base_url()?>plantilla/imagen/body/patrocinadores/uniongames.png" alt="EXPOSITORES" title="UNION GAMES">
 </div>
 <div class="part">
 	<div id="owl-demo" class="owl-carousel owl-theme">

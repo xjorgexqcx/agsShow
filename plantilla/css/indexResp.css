@@ -28,6 +28,11 @@
     	width: 202px;
 	}
 }
+@media(min-width: 1170px){
+	.patro img{
+		width: 170px;
+	}
+}
 @media(min-width: 1200px){
 	.owl-carousel {
 		width: 91% !important;
